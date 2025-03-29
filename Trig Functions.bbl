@@ -1,3 +1,12 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{bartle1999introduction}
+Robert~G. Bartle and Donald~R. Sherbert.
+\newblock {\em Introduction to Real Analysis}.
+\newblock Wiley, 3rd edition, 1999.
+
+\bibitem{dattoli2011parabolictrigonometricfunctions}
+G.~Dattoli, M.~Migliorati, M.~Quattromini, and P.~E. Ricci.
+\newblock The parabolic-trigonometric functions, 2011.
 
 \end{thebibliography}

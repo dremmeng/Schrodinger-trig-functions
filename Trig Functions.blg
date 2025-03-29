@@ -1,50 +1,46 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Trig Functions.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
-Reallocating 'name_of_file' (item size: 1) to 15 items.
-I found no \citation commands---while reading file Trig Functions.aux
 Database file #1: references.bib
-You've used 0 entries,
+You've used 2 entries,
             2118 wiz_defined-function locations,
-            497 strings with 4015 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            507 strings with 4265 characters,
+and the built_in function-call counts, 576 in all, are:
+= -- 48
+> -- 36
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 15
+- -- 12
+* -- 35
+:= -- 104
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 2
+duplicate$ -- 19
+empty$ -- 45
+format.name$ -- 12
+if$ -- 116
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 12
+num.names$ -- 4
+pop$ -- 20
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 10
 quote$ -- 0
-skip$ -- 1
+skip$ -- 15
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 11
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 6
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+while$ -- 4
+width$ -- 3
+write$ -- 21

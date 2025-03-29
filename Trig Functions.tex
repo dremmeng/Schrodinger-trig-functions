@@ -11,7 +11,10 @@
 \newcommand{\I}{\mathbb{I}}
 \newcommand{\HR}{\mathbb{HR}}
 \newcommand{\HRI}{\mathbb{HRI}}
-
+\newcommand{\sinp}{\mathrm{sinp}}
+\newcommand{\cosp}{\mathrm{cosp}}
+\newcommand{\cosi}{\mathrm{cosi}}
+\newcommand{\sini}{\mathrm{sini}}
 \newtheorem{thm}{Theorem}
 \newtheorem{defn}{Definition}
 \newtheorem{conv}{Convention}
@@ -28,8 +31,26 @@
 
 \maketitle
 \begin{abstract}
+    This paper attempts to fill a hole in our understanding of trigonometric functions. Inspired by parabolic trigonometric functions and the schrodinger equation we define a new class of trigonometric functions. 
 \end{abstract}
-\section{} 
+\section{As Differential Equations}
+    In the context of differential equations we can define cosine as the unique solutions to the following system of differential equations. \cite{bartle1999introduction}
+    \begin{align}
+        \frac{d^2}{dx^2} f(x) = f(x), f(0) = 1, f'(0) = 0 \label{eq:1}
+    \end{align}
+    And we can define sine as the first derivative of cosine. 
+    Similarly we may define the hyperbolic cosine function with this differential system. \cite{bartle1999introduction}
+    \begin{align}
+        \frac{d}{dx} f(x) = -f(x), f(0) = 1, f'(0) = 0 \label{eq:2}
+    \end{align}
+    Recently a new branch of trignometric functions were defined. These parabolic trigonometric functions parameterize the unit palabora. \cite{dattoli2011parabolictrigonometricfunctions} We can define the parabolic cosine with the following differential equation. 
+    \begin{align}
+        \frac{d^2}{dx^2} f(x) = 0, f(0) = 1, f'(0) = 0 \label{eq:3}
+    \end{align}
+    Now we can define a new class of functions using the following system.
+    \begin{align}
+        \frac{d^2}{dx^2} f(x) = i f(x), f(0) = 1, f'(0) = 0 \label{eq:4}
+    \end{align}
 \bibliographystyle{plain}  % or another style like alpha, unsrt, etc.
 \bibliography{references.bib}  % the name of the .bib file
 \end{document}
